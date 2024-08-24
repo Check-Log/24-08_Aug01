@@ -1,0 +1,53 @@
+
+
+Keypad and SecurityDesk are low level in the same package.
+    So StringProcessor is not reusable in a different context.
+    Dependency Injection is...
+    Inversion of Control is...
+
+
+DAO, (Data-Access-Object)
+    Foul for being an unnecessary term in an already intangible cesspool.)
+    This example involves unit-testing which is horribly unnecessary.
+    Oh you want to create a working program? Well I hope you enjoy wasting 2 hours
+    learning that the annotation "@Before" is depreciated and part of junit4.
+    Enjoy hacking the gradle for junit5 and hunting down the corresponding syntax @BeforeAll
+    They made this pointlessly hard. Worse yet, DESTRUCTIVELY hard.
+    This example was a liability.
+    A lego in the foot of whatever genius came up with this.
+
+       Cherry on top, I STILL need to figure out how this even proves the DIP principle.
+
+        //Proper DIP example
+        var customers = new HashMap<Integer, Customer>();
+        //customers.put(1, new Customer("John"));
+        //customers.put(2, new Customer("Susan"));
+        //CustomerService customerService = new CustomerService(new SimpleCustomerDao(customers));
+        //customerService.findAll().forEach(System.out::println);
+
+Complaint, DIP principle
+Hello Baeldeung, I noticed a problem with one of your examples
+on your online learning-material for the software SOLID principles.
+Specifically the web-page for Dependency Inversion Principle.
+See link: https://www.baeldung.com/java-dependency-inversion-principle
+This webpage uses an example to demonstrate DIP, including the following files:
+Customer, CustomerService, CustomerDao, SimpleCustomerDao, CustomerServiceTest
+This example involves unit-testing.
+Like many coders, i like to create a working-program based on the example.
+This example was harder than the other principle-examples because it has unit-testing.
+This is a bad example, because it means the coder needs to download test-libraries,
+I wasted over 2 hours unable to get the program running because I had to learn
+that your example's "@Before" annotation doesn't work with JUnit5. It's depreciated.
+This wouldn't have happened if there was a simpler example.
+
+Can someone please update the DIP example to something that does NOT use test-libraries?
+This is pointlessly hard for learning a basic SOLID principle.
+I can send you my own easier example if you wish. Let me know.
+
+
+       //Consider 3 classes: UsernameProcessor, Keypad, SecurityDesk...
+        System.out.println("-------------------------");
+        Keypad usernameReader = new Keypad();
+        SecurityDesk securityDesk = new SecurityDesk();
+        UsernameProcessor usernameProcessor = new UsernameProcessor(usernameReader, securityDesk);
+        usernameProcessor.printUsername();
