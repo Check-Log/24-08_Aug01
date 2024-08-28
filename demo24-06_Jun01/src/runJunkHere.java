@@ -10,8 +10,15 @@ public class runJunkHere {
 
     public static void main(String[] args)
     {
+        Practical02_31 p31 = new Practical02_31();
+        p31.run();
+        BTDigital_Aug28_01 bt1 = new BTDigital_Aug28_01();
+        bt1.run();
+        BTDigital_Aug28_02 bt2 = new BTDigital_Aug28_02();
+        bt2.run();
+
         Practical02_30 p30 = new Practical02_30();
-        p30.run();
+        //p30.run();
 
         Practical02_29 p29 = new Practical02_29();
         //p29.run();
