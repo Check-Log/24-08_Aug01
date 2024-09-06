@@ -25,6 +25,10 @@ public class Practical02_30 {
 
         However, it is still a preview feature, so we need to enable preview to use it:
         java --enable-preview --source 17 PatternMatching.java
+        java --enable-preview --source 17 Practical02_30.java
+        java --enable-preview --source 17 runJunkHere.java
+
+        Actually, it might be easier if you switch jdk to use openjdk-22
 
 
 

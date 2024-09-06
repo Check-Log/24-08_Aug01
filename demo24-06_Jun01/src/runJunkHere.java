@@ -4,18 +4,26 @@ import Practicals01.Practice03;
 import Practicals01.Practice05;
 import Practicals01.Practice06;
 import Practicals02.*;
+import Practicals_2409_Sep.Multithread;
+import Practicals_2409_Sep.ThreadCount;
 
 public class runJunkHere {
 
 
     public static void main(String[] args)
     {
+        ThreadCount thr01 = new ThreadCount();
+        thr01.run();
+
+        Multithread m2 = new Multithread();
+        //m2.run();
+
         Practical02_31 p31 = new Practical02_31();
-        p31.run();
+        //p31.run();
         BTDigital_Aug28_01 bt1 = new BTDigital_Aug28_01();
-        bt1.run();
+        //bt1.run();
         BTDigital_Aug28_02 bt2 = new BTDigital_Aug28_02();
-        bt2.run();
+        //bt2.run();
 
         Practical02_30 p30 = new Practical02_30();
         //p30.run();
