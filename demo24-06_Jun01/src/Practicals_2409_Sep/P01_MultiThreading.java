@@ -1,11 +1,11 @@
 package Practicals_2409_Sep;
 
-public class MultiThreading
+public class P01_MultiThreading
 {
 
     void main(){
 
-        ThreadCount C = new ThreadCount();
+        P01_ThreadCount C = new P01_ThreadCount();
 
         try{
 

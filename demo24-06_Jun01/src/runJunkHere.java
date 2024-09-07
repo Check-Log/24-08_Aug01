@@ -5,14 +5,14 @@ import Practicals01.Practice05;
 import Practicals01.Practice06;
 import Practicals02.*;
 import Practicals_2409_Sep.Multithread;
-import Practicals_2409_Sep.ThreadCount;
+import Practicals_2409_Sep.P01_ThreadCount;
 
 public class runJunkHere {
 
 
     public static void main(String[] args)
     {
-        ThreadCount thr01 = new ThreadCount();
+        P01_ThreadCount thr01 = new P01_ThreadCount();
         thr01.run();
 
         Multithread m2 = new Multithread();

@@ -1,5 +1,5 @@
 package Practicals_2409_Sep;
-
+//https://www.geeksforgeeks.org/multithreading-in-java/
 public class MultiThreadingDemo extends Thread{
     public void run()
     {
