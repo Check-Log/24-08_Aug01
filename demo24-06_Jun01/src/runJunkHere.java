@@ -1,19 +1,32 @@
 import A_Basics.*;
 import A_Principles.SOLID_Principles;
-import Practicals01.Practice03;
-import Practicals01.Practice05;
-import Practicals01.Practice06;
-import Practicals02.*;
-import Practicals_2409_Sep.Multithread;
-import Practicals_2409_Sep.P01_ThreadCount;
+import P01.Practice03;
+import P01.Practice05;
+import P01.Practice06;
+import P02.*;
+import P2409_Sep02.Multithread;
+import P2409_Sep.P01_MultiThreading;
+import P2409_Sep03.Login;
+import P2409_Sep04.P2409_04_Script;
+import P2409_Sep05.P2409_05_Script;
 
 public class runJunkHere {
 
 
+
     public static void main(String[] args)
     {
-        P01_ThreadCount thr01 = new P01_ThreadCount();
-        thr01.run();
+        P2409_05_Script p240905 = new P2409_05_Script();
+        p240905.commence(); //multithreading with super class extensions
+
+        P2409_04_Script p2409_04_script = new P2409_04_Script();
+        //p2409_04_script.commence();
+
+        Login login01 = new Login();
+        //login01.run01();
+
+        P01_MultiThreading mT01 = new P01_MultiThreading();
+        //mT01.run();
 
         Multithread m2 = new Multithread();
         //m2.run();
