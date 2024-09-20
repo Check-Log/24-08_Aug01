@@ -1,6 +1,16 @@
 package Practicals_2409_Sep;
 
 public class Multithread {
+    /*
+    Program's purpose is to demonstrate multithreads.
+    Unclear if this is currently working.
+
+     */
+
+    public static void main(String[]args){
+        Multithread m1 = new Multithread();
+        m1.run();
+    }
 
     public void run(){
 
@@ -16,6 +26,7 @@ public class Multithread {
                     = new MultiThreadingDemo();
             object.run();
         }
+        System.out.println("grasp it firmly");
     }
 
 }
