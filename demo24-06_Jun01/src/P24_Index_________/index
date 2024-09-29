@@ -1,0 +1,47 @@
+An attempt to index this ungainly fucking codebase,
+please take the good stuff and start over...
+
+Package: A_Basics
+BasicObjectInitialisation
+City
+CoderByte
+Country
+FortnitePlayer
+IteratorTechniques_Advanced01
+IteratorTechniques_Advanced02
+IteratorTechniquesBasic
+LogicTechniques
+MultiThread01
+MultiThread02.java
+Player
+PracticeClass01
+-------
+Package: A_Principles
+Circle
+LaserCannon
+OOP_Principles
+Rectangle
+Shape
+SOLID_Principles
+--------
+A_Principles_Liskov
+AB_Principles_InterfaceSeg
+ABC_Principles_DependencyInversion
+B_APIE_OOP
+B_JPA
+Finalized_24
+P01
+P02
+P2409_Sep
+-----------
+P2409_Sep02 - MultithreadingDemo
+MultiThreadingDemo
+P01_MultiThreading
+P01_ThreadCount
+
+
+P2409_Sep   - P01_MultiThreading
+P2409_Sep02 - Multithread
+P2409_Sep03 - Login
+P2409_Sep04 - CustomTask
+P2409_Sep05 - LoginRequest

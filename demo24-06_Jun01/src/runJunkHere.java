@@ -141,19 +141,19 @@ public class runJunkHere {
         //singleResponsibility.run();
         //------------------------------------------------------------------------------
         //Iterator techniques,
-        IteratorTechniquesBasic i1 = new IteratorTechniquesBasic();
+        Iteration01_Basic i1 = new Iteration01_Basic();
         //i1.run();
 
         //---------------------------------------------------------
-        IteratorTechniques_Advanced01 i2 = new IteratorTechniques_Advanced01();
+        Iteration02_Advanced01 i2 = new Iteration02_Advanced01();
         //i2.run();
 
         //---------------------------------------------------------
-        IteratorTechniques_Advanced02 i3 = new IteratorTechniques_Advanced02();
+        Iteration02_Advanced02 i3 = new Iteration02_Advanced02();
         //i3.run();
         CoderByte coderByte = new CoderByte();
 
-        IteratorTechniques_Advanced02 i4 = new IteratorTechniques_Advanced02();
+        Iteration02_Advanced02 i4 = new Iteration02_Advanced02();
         //i4.run02();
         //i4.run03();
 
