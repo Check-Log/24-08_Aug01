@@ -23,6 +23,8 @@ public class BasicObjectInitialisation {
         char ch = 'a';
         //also add  byte, short, long, double
 
+        //printf("%d\n", i); //this doesn't work
+
         String str1 = "hello"; //non-primitive
 
         //2. Basic Arrays, int, string (you need to initialize their size)
